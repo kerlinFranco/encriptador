@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="imagenes/Logo.png" alt="" srcset="">
+    </header>
+    <main>
+        <div class="contenido">
+            <div class="entrada">
+                <textarea class="texto" id="textoUsuario" name="des-encriptar" rows="" placeholder="Ingrese el texto"></textarea>
+                <div class="botones">
+                <button class="boton" onclick="encriptarTexto()">Encriptar</button>
+                <button class="boton" onclick="desencriptarTexto()">Desencriptar</button>
+                </div>
+            </div>
+            <div class="salida" id="salida">
+            <img src="imagenes/Muñeco.png" alt="">
+            <h2>No se encontró ningún mensaje</h2> 
+            </div>
+        </div>
+    </main>
+    <footer>
+        <hr>
+        <p>Desarrollador: kerlin Franco</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
